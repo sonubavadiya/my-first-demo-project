@@ -1,0 +1,433 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+a:hover{
+    color: #A34033;
+}
+
+/* ===utilities== */
+
+/* ===font size== */
+.fs-15{
+    font-size: 15px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-35{
+    font-size: 35px;
+}
+.fs-33{
+    font-size: 33px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-45{
+    font-size: 45px;
+}
+.fs-80{
+    font-size: 80px;
+}
+
+/* =font style== */
+.popi_b{
+    font-family: 'poppinsbold';
+}
+.popi_m{
+    font-family: 'poppinsmedium';
+}
+.popi_r{
+    font-family: 'poppinsregular';
+}
+.popi_s_b{
+    font-family: 'poppinssemibold';
+}
+.pro_r{
+    font-family: 'proxima_novaregular';
+}
+.pro_m{
+    font-family: 'proxima_novamedium';
+}
+.stan{
+    font-family: 'stanley_roots_personal_useRg';
+}
+/* ========color====== */
+.black{
+    color: #414141;
+}
+.brown{
+    color: #A34033;
+}
+/* =========bg color======= */
+.bg_green{
+    background: #4B592F ;
+}
+.bg_an_white{
+    background-color: #F0E7D9;
+}
+
+/* =other utitite= */
+.brown_btn{
+    width: 258px;
+    height: 50px;
+    background-color: #A34033;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 28px 28px 0px 28px;
+    position: relative;
+    }
+.brown_btn img{
+    width: 10% !important;
+    }
+
+
+    .brown_btn:hover{
+        background-color: #9c1f0c;
+        color: #fff;
+        width: 265px;
+        transition: all.3s ease-in;
+
+    }
+/* =============Home Page=========================== */
+
+/* ========= section top ============ */
+ .left_part{
+    max-width:400px ;
+}
+
+/* ==== owl caoursel === */
+.top .owl-carousel .owl-item img {
+    display: block;
+    width: unset ;
+}
+ .top .owl-nav{
+    display: none;
+}
+ .top .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: brown !important;
+}
+ .top .owl-theme .owl-dots{
+    margin: 40px 0;
+}
+.top
+element.style {
+}
+.top .owl-theme .owl-dots {
+    margin: 40px 0;
+}
+
+ .top .owl-theme .owl-dots, .owl-theme .owl-nav {
+    position: unset;
+    
+}
+
+/* ===== section food menu ======== */
+
+ .food_title{
+    max-width:550px;
+}
+.menu_item_wrap{
+width: 252px;
+height: 380px;
+border-radius: 150px;
+box-shadow: 0px 8px 6px #0000000B;
+text-align: center;
+}
+.round_butn{
+    position: absolute;
+    bottom: -18px;
+    left: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+height: 56px;
+background: #A34033;
+border-radius: 100%;
+}
+
+.round_butn:hover{
+    background-color: #9c1f0c;
+    color: #fff;
+    width: 50px;
+height: 50px;
+    transition: all.3s ease;
+}
+
+/* section footer=== */
+.futer_lft a:hover{
+color: #752418;
+}
+
+
+/* ===========second page========== */
+
+/* =======section top ========== */
+
+.right_div{
+    column-count: 2;
+    column-gap: 30px;
+}
+.right_div .last_img{
+    padding-top: 98px;
+}
+.mid_img{
+    position: absolute;
+    top: -13px;
+    left: 208px;
+    width: 50%;
+}
+
+/* =========four page================ */
+
+/* ===========section top form============== */
+#form_contc .form_left_wrap{
+    max-width: 608px;
+}
+#form_contc .form_round_btn{
+display: block;
+width: 65px;
+height: 36px;
+background: #F7F1E9;
+border-radius: 22px;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #414141;
+}
+#form_contc .all_btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 29px;
+}
+#form_contc .all_btn .active{
+    background-color: #A34033;
+    color: #fff;
+}
+
+#form_contc .inpt{
+    width: 100%;
+    padding: 12px 5px;
+    border: none;
+    background-color: #F7F1E9;
+    
+}
+#form_contc textarea{
+    background-color: #F7F1E9;
+    border: none;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+#form_contc textarea:focus{
+    outline: none;
+    border: unset;
+
+}
+#form_contc input:focus{
+    outline: none;
+    border: unset;
+}
+
+/* ===========five page=========== */
+
+/* === section food menu ========== */
+
+
+.empty{
+    max-width: 600px;
+}
+
+
+/* ==============sixt page============ */
+/* === section two  food and Drink ====== */
+ .bg_crm{
+    background-color: #EFE1C3;
+}
+
+
+/* ======= section three  serve Drink ========== */
+
+
+.serve_title h4{
+   max-width:415px;
+}
+.serve_imgs_wrap .hero_img{
+    position: relative;
+}
+
+.serve_imgs_wrap .grp_eating{
+    position: absolute;
+    top: -70px;
+    right: -16px;
+    border: 10px solid white;
+    max-width: 38%;
+
+}
+.serve_imgs_wrap .serving_drnk{
+    position: absolute;
+    bottom: -68px;
+    left: 5px;
+    border: 10px solid white;
+    max-width: 33%;
+
+}
+.serve_imgs_wrap .washing{
+    position: absolute;
+    bottom: -58px;
+    right: 31px;
+    border: 10px solid white;
+    max-width: 35%;
+}
+
+/* ===== section four  garnish dish======== */
+.garnish_dish .left{
+    max-width: 372px;
+}
+.garnish_dish .left2{
+    
+    margin-top: 3rem;
+}
+.garnish_dish .right2 {
+    max-width: 372px;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+.garnish_dish .div_bg_crm1{
+    width: 469px;
+    height: 478px;
+    background: #F2DED3;
+    position: absolute;
+    top: 56px;
+    right: 0;
+    z-index: -4;
+}
+.garnish_dish .div_bg_crm2{
+    width: 469px;
+    height: 478px;
+    background: #F2DED3;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    z-index: -4;
+}
+
+
+
+/* == section four  showcase ==== */
+.showcase .all_img_wraps{
+}
+
+
+
+
+/* ====== section five  CHRISTMAS BUFFET ===== */
+.CHRISTMAS_BUFFET{
+    background-color: #F2DED3;
+    
+}
+.CHRISTMAS_BUFFET .left_crisms_content p{
+    padding-right: 2rem;
+}
+.CHRISTMAS_BUFFET .left_crisms_content{
+max-width: 390px;  
+margin-left: auto;  
+}
+.CHRISTMAS_BUFFET .left_crisms_content h5{
+padding-right: 6rem;
+}
+.right_crismis .crisms_burgr_img{
+    position: absolute;
+    top: -44px;
+    left: 8px;
+    border: 10px solid #F2DED3;
+}
+.right_crismis .crisms_food_img{
+    position: absolute;
+    bottom: -44px;
+    right: 8px;
+    border: 10px solid #F2DED3;
+}
+/* <!-- ======= section six  image gallery ===== --> */
+
+.many_imgg img{
+    width: 100%;
+}
+.many_imgg {
+   display: flex;
+   gap: 5px;
+   /* flex-wrap: wrap; */
+  
+}
+
+/* <!-- ======= section seven erview and rating ===== --> */
+.rating_review .bg_light{
+    background-color: #EFE1C3;
+}
+.rating_review .owl-item{
+width: 320px;
+height: 250px;
+background: #EFE1C3 ;
+padding: 18px 20px;
+}
+
+
+
+.rating_review .owl-carousel .owl-item img {
+    display: block;
+    width: unset ;
+}
+.rating_review .owl-carousel .owl-theme .owl-nav {
+display: block ;
+}
+.rating_review .star {
+    display: flex;
+   padding-bottom: 8px;
+}
+.rating_review .owl-dots {
+    display: none;
+}
+.rating_review .strong .owl-theme .owl-dots, .owl-theme .owl-nav {
+    position: absolute;
+    top: -60px;
+    right: 20px;
+}
+ .rating_review .owl-theme .owl-nav [class*=owl-]:hover {
+    background: unset;
+}
+
+
+
+
+/* === section eight last page   footer == */
+.last_p_footer .bg_brown{
+background-color: #A34033;
+}
+.last_p_footer .bg_ligh_brwn{
+background-color: #F2DED3;
+}
+.last_p_footer .footer_hdr .rightt{
+float: right;
+}
+.last_p_footer .italic{
+font-style: italic;
+}

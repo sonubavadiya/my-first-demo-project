@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Group_6" data-name="Group 6" transform="translate(-110 -2219)">
+    <g id="Ellipse_21" data-name="Ellipse 21" transform="translate(110 2219)" fill="#fff" stroke="#414141" stroke-width="1">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="22" fill="none"/>
+    </g>
+    <path id="email-line" d="M23.729,6H3.449A1.449,1.449,0,0,0,2,7.449V21.935a1.449,1.449,0,0,0,1.449,1.449H23.729a1.449,1.449,0,0,0,1.449-1.449V7.449A1.449,1.449,0,0,0,23.729,6ZM22.614,21.935H4.651l5.07-5.244L8.678,15.684,3.449,21.095V8.55l9,8.96a1.449,1.449,0,0,0,2.043,0l9.235-9.184V21L18.4,15.669l-1.021,1.021ZM4.4,7.449H22.556l-9.083,9.032Z" transform="translate(119.411 2227.308)" fill="#414141"/>
+  </g>
+</svg>
